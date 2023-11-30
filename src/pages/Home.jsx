@@ -1,10 +1,10 @@
-import React from 'react'
 import Hero from '../components/Hero'
 import Stats from '../components/Stats'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Mapa from '../components/Mapa'
 import TextShow from '../components/TextShow'
+import Recent from '../components/Recent'
 
 const Home = () => {
   return (
@@ -12,6 +12,7 @@ const Home = () => {
       <Hero />
       <Stats />
       <About />
+      <Recent />
       <Contact />
       <Mapa />
       <TextShow />
