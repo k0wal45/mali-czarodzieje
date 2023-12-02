@@ -12,7 +12,7 @@ const Navbar = () => {
           </div>
           <ul className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52 text-black ">
             <li><Link to='/#onas'>O Nas</Link></li>
-            <li><Link to='/#programy'>Programy</Link></li>
+            <li><Link to='/programy'>Programy</Link></li>
             <li><Link to='/#akutalnosci'>Aktualności</Link></li>
             <Link to='/kontakt' className="btn font-lato-bold text-sm bg-white text-black rounded-full">Skontaktuj się</Link>
           </ul>
@@ -24,7 +24,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-xl">
           <li><Link to='/#onas'>O Nas</Link></li>
-          <li><Link to='/#programy'>Programy</Link></li>
+          <li><Link to='/programy'>Programy</Link></li>
           <li><Link to='/#akutalnosci'>Aktualności</Link></li>
         </ul>
       </div>

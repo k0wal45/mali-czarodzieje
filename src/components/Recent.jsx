@@ -14,22 +14,16 @@ const Recent = () => {
         <ProgramCard 
           title='Edukacja dla Każdego Dziecka'
           photo={child1}
-          goal='Zapewnienie dostępu do edukacji dla dzieci z ubogich rodzin'
-          form={['Donacje Finansowe', 'Wolontariat Nauczycieli', 'Udział w aukcjach charytatywnych']}
           desc='Zbieramy fundusze na zakup podręczników, materiałów szkolnych i stypendiów dla dzieci z trudnych warunków finansowych'
         />
         <ProgramCard 
           title='Uśmiech na Twarzy Dziecka'
           photo={child1}
-          goal='Zapewnienie radości i rozrywki dzieciom przebywającym w szpitalach'
-          form={['Donacje zabawek', 'Datki na organizację wydarzeń rozrywkowych', 'Udział w maratonie charytatywnym']}
           desc='Organizujemy wizyty artystów, dostarczamy zabawki i gry planszowe, tworzymy kąciki rozrywki w szpitalach'
         />
         <ProgramCard 
           title='Zdrowie od Początku'
           photo={child1}
-          goal='Poprawa opieki zdrowotnej dla noworodków i małych dzieci'
-          form={['Datki na sprzęt medyczny', 'Wolontariat w placówkach zdrowia', 'Udział w akcjach informacyjnych']}
           desc='Zakup sprzętu medycznego, organizacja szkoleń dla personelu medycznego, wsparcie programów szczepień'
         />
       

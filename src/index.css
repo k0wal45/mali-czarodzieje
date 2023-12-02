@@ -44,6 +44,10 @@ body, html {
 	background: url(./assets/img/bg.webp) fixed center center/cover;
 }
 
+.bg-program {
+	background: url(./assets/img/program.webp) fixed right center/cover;
+}
+
 .bg-display {
 	background: url(./assets/img/bgred.webp) fixed center center/cover;
 }
