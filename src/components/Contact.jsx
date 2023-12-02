@@ -57,15 +57,15 @@ const Contact = () => {
           <p className="font-lato-black whitespace-nowrap uppercase">Kontakt</p>
           <div className="w-1/3 border-2 border-black"></div>
         </div>
-      <h8 className="font-lato-black text-6xl">Skontauj się z nami</h8>
+      <h5 className="font-lato-black text-6xl">Skontauj się z nami</h5>
 
       <div className="bg-base-100 p-12 flex flex-col-reverse lg:flex-row gap-8 lg:translate-y-24 mt-12 lg:mt-0">
         <div className="flex flex-col p-4 justify-between items-start gap-4">
           <div className="flex flex-col justify-center items-start gap-4">
-            <h9 className="text-3xl font-playfair-semibold flex gap-4">
+            <h6 className="text-3xl font-playfair-semibold flex gap-4">
               <span>Sosnowiec</span>
               <span className="text-gray-500">Polska</span>
-            </h9>
+            </h6>
             <p className="text-xl text-gray-600">ul. Jaroslawa Dudka 56a<br/>Sosnowie 41-200, Polska</p>
             <p className="text-xl text-gray-600 flex gap-2"><span className="text-black text-bold">Email:</span><span>info@mali-czarodzieje.pl</span></p>
             <p className="text-xl text-gray-600 flex gap-2"><span className="text-black text-bold">Phone:</span><span>32 352 12 35</span></p>

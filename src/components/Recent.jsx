@@ -9,7 +9,7 @@ const Recent = () => {
         <div className="w-1/3 border-2 border-black"></div>
         <p className="font-lato-black whitespace-nowrap uppercase ">Programy</p>
       </div>
-      <h7 className="font-lato-black text-6xl text-end">Nasze niedawne akcje</h7>
+      <h6 className="font-lato-black text-6xl text-end">Nasze niedawne akcje</h6>
       <div className="flex flex-wrap gap-12 justify-around items-center mt-12 w-full">
         <ProgramCard 
           title='Edukacja dla Każdego Dziecka'
