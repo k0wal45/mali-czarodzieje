@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import ProgramCard from './ProgramCard'
-import child1 from '../assets/img/child1.webp'
 import Data from '../Data'
 
 const Recent = () => {

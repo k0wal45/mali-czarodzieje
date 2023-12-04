@@ -30,8 +30,8 @@ const Programy = () => {
         <div className=" w-[10vw]"></div>
       </section>
 
-      <section className="flex justify-center items-center flex-col gap-8 p-4 py-24">
-        <h2 className="text-5xl font-lato-black">Możesz pomóc dzieciom wspomagając naszą <span className="text-primary">fundacje</span></h2>
+      <section className="flex justify-center items-center flex-col gap-8 p-4">
+        <h2 className="text-5xl font-lato-black py-24">Możesz pomóc dzieciom wspomagając naszą <span className="text-primary">fundacje</span></h2>
         <ul className="flex flex-col gap-12 w-full items-center justify-center">
           {
             Data.map((event) => (
