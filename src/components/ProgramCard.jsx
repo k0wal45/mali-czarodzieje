@@ -6,7 +6,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const ProgramCard = ({event}) => {
   return (
-    <li className="flex flex-col shadow-xl w-[30rem]" key={event.link}>
+    <li className="flex flex-col shadow-xl max-w-[30rem] flex-1" key={event.link}>
       <img src={event.photo[0]} alt="" className="aspect-[3/2] object-cover" />
       <div className="flex flex-col p-8 gap-4 justify-center text-center">
         <h3 className="text-3xl font-lato-black">{event.title}</h3>

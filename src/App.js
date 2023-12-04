@@ -5,14 +5,13 @@ import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Programy from './pages/Programy';
-import ScrollToHashElement from './components/ScrollToHashElement';
 import Event from './pages/Event';
 import About from './pages/About';
 
 function App() {
   return (
     <Router>
-      <ScrollToHashElement />
+
       <Navbar />
         <Routes>
           <Route path='/' element={<Home />}/>
