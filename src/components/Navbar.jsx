@@ -22,7 +22,7 @@ const Navbar = () => {
     
   
   return (
-    <nav className=" absolute top-0 left-0 navbar text-xl text-white lg:px-12 p-4 px-2">
+    <nav className=" absolute top-0 left-0 navbar text-xl text-white lg:px-12 p-4 px-2 z-30">
       <div className="navbar-start">
         {/* mobile */}
         <div className="dropdown">

@@ -1,5 +1,6 @@
 // Aktywne Lato Dzieciaków
 import lato1 from './assets/img/child1.webp'
+import lato2 from './assets/img/child2.webp'
 
 // xxxxx
 
@@ -7,7 +8,7 @@ const Data = [
   {
     title: 'Aktywne Lato Dzieciaków',
     link: 'aktywne-lato-dzieciakow',
-    photo: [lato1],
+    photo: [lato1, lato2, lato1, lato1, lato1, lato1, lato1, lato1, lato1, lato1, lato1, lato1, lato1, lato1, lato1, lato1, lato1],
     description: 'Aktywne Lato Dzieciaków to inicjatywa mająca na celu zapewnienie niezapomnianych wakacji dla dzieci z rodzin o ograniczonych środkach. W lipcu 2023 roku, zamierzamy zorganizować letnie obozy sportowe i edukacyjne w malowniczych Bieszczadach, by dać dzieciom szansę na rozwijanie swoich pasji, zdobywanie nowych umiejętności oraz nawiązywanie przyjaźni. Dzieci będą miały okazję uczestniczyć w różnorodnych aktywnościach, od sportów ekstremalnych po warsztaty artystyczne. Pragniemy stworzyć dla nich atmosferę pełną radości, nauki i pozytywnych doświadczeń, które pozostaną z nimi na długo.',
     shortDescription: 'Letnia przygoda pełna zabawy i nauki dla dzieci potrzebujących wsparcia.',
     date: new Date('2023-12-11'),
@@ -16,7 +17,7 @@ const Data = [
   {
     title: 'Przeczytaj z Nami Świat',
     link: 'przeczytaj-z-nami-swiat',
-    photo: [lato1],
+    photo: [lato2],
     description: '"Przeczytaj z Nami Świat" to kampania mająca na celu rozwijanie pasji do czytania wśród dzieci z mniejszych miejscowości. W wrześniu 2023 roku, planujemy stworzyć biblioteki, a także zorganizować spotkania z autorami i warsztaty literackie w Rzeszowie. Chcemy, aby każde dziecko miało dostęp do ciekawych książek, inspirujących historii i przestrzeni, gdzie może rozwijać swoją wyobraźnię. Celem akcji jest nie tylko promocja czytelnictwa, ale także budowanie silnych fundamentów dla przyszłych pokoleń pełnych kreatywności i wiedzy.',
     shortDescription: 'Książki otwierają drzwi do nowych światów - dajmy dzieciom klucz do wiedzy i wyobraźni.',
     date: new Date('2023-09-12'),
@@ -25,7 +26,7 @@ const Data = [
   {
     title: 'Uśmiechnij się Zdrowo',
     link: 'usmiechnij-sie-zdrowo',
-    photo: [lato1],
+    photo: [lato2],
     description: '"Uśmiechnij się Zdrowo" to inicjatywa mająca na celu poprawę zdrowia jamy ustnej dzieci w wieku przedszkolnym. W październiku 2023 roku, planujemy przeprowadzić bezpłatne badania dentystyczne dla dzieci w Bydgoszczy. Chcemy dostarczyć im nie tylko podstawową opiekę stomatologiczną, ale także edukować rodziców i opiekunów na temat znaczenia higieny jamy ustnej oraz profilaktyki próchnicy. Naszym celem jest stworzenie świadomej społeczności, w której zdrowy uśmiech każdego dziecka jest priorytetem.',
     shortDescription: 'Zdrowy uśmiech od najmłodszych lat - dbajmy o zęby naszych najmłodszych przyjaciół.',
     date: new Date('2023-10-11'),
