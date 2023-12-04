@@ -1,7 +1,7 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
 
 import Data from '../Data'
-import { useEffect, useState } from 'react'
+import { useCallback, useEffect, useState } from 'react'
 import Spinner from '../components/Spinner'
 
 const Event = () => {
@@ -13,7 +13,7 @@ const Event = () => {
   const [loading, setLoading] = useState(true)
 
 
-  const findElementById = (arr) => {
+  const findElementById = useCallback((arr) => {
     for (let i = 0; i < arr.length; i++) {
       if (arr[i].link === id) {
         setData(arr[i]);
@@ -23,17 +23,11 @@ const Event = () => {
     }
     setLoading(false)
     return
-  }
-
-  // const idToFind = Data.map((e) => (e.title));
+  }, [id])
 
   useEffect(() => {
     findElementById(Data)
-  }, [data, id])
-  
-
-
-
+  }, [data, id, findElementById])
 
   if (!loading) {
 
