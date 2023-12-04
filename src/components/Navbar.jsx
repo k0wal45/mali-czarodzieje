@@ -41,8 +41,7 @@ const Navbar = () => {
                 }
               </ul>
             </li>
-            
-            <li><Link to='/akutalnosci'>Aktualności</Link></li>
+
             <Link to='/kontakt' className="btn font-lato-bold text-sm bg-white text-black rounded-full">Skontaktuj się</Link>
           </ul>
         </div>
@@ -66,7 +65,6 @@ const Navbar = () => {
               </ul>
             </details>
           </li>
-          <li><Link to='/akutalnosci'>Aktualności</Link></li>
         </ul>
       </div>
       {/* btn */}
