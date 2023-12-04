@@ -82,7 +82,7 @@ const Event = () => {
               {
                 data.photo.map((photo) => (
                   <li className='p-4'>
-                    <img src={photo} alt="" />
+                    <img src={photo} alt="Zdjęcie z akcji Mali Czarodzieje" />
                   </li>
                 ))
               }
