@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Programy from './pages/Programy';
 import ScrollToHashElement from './components/ScrollToHashElement';
+import Event from './pages/Event';
+import About from './pages/About';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/kontakt' element={<Contact />}/>
+          <Route path='/onas' element={<About />}/>
           <Route path='/programy' element={<Programy />}/>
+          <Route path='/programy/:id' element={<Event />}/>
           <Route path='/*' element={<NotFound />}/>
           <Route path='/notfound' element={<NotFound />}/>
         </Routes>

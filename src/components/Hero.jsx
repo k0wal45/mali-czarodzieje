@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import photo from '../assets/img/help.webp'
+import photo from '../assets/img/logo.webp'
 
 const Hero = () => {
   return (
@@ -12,8 +12,8 @@ const Hero = () => {
           <Link to='/#onas' className="btn btn-outline border-white rounded-full text-white text-xl font-lato-bold">Dowiedz się więcej o fundacji</Link>
         </div>
       </div>
-      <div className="flex flex-col gap-8 flex-1 lg:mt-48 py-12 lg:py-0">
-        <img src={photo} alt="Child that need help" className='max-h-[60vh] justify-end object-contain'/>
+      <div className="flex flex-col gap-8 flex-1 lg:mt-12 py-12 lg:py-0">
+        <img src={photo} alt="Logo Mali Czarodzieje" className='max-h-[70vh] justify-end object-contain'/>
         <div className="w-1/3 border-2 border-white"></div>
         <p className="text-xl lg:w-3/4">Twoje serce liczy się dla nich najbardziej. Twoja pomoc to dla nich nieocenione wsparcie. Dziękujemy z całego serca!</p>
       </div>
