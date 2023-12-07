@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="flex flex-col gap-8 flex-1 lg:mt-12 py-12 lg:py-0">
         <div className="flex flex-col gap-4">
           <img src={photo} alt="Logo Mali Czarodzieje" className='max-h-[60vh] justify-end object-contain'/>
-          <p className="font-gerak text-8xl text-center">Mali Czarodzieje</p>
+          <p className="font-gerak text-7xl lg:text-8xl text-center">Mali Czarodzieje</p>
         </div>
         <div className="w-1/3 border-2 border-white"></div>
         <p className="text-xl lg:w-3/4">Pracujemy z pasją nad zapewnieniem natychmiastowej pomocy, ale także długoterminowych rozwiązań</p>
