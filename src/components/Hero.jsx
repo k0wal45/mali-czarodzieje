@@ -9,11 +9,14 @@ const Hero = () => {
         <p className="text-xl lg:text-2xl lg:w-2/3">Twoje wsparcie dla nich to nieoceniona wartość. Dla nich to ogromne wsparcie. Dziękujemy!</p>
         <div className="flex justify-start lg:justify-center items-start gap-8 flex-wrap">
           <Link to='/kontakt' className="btn rounded-full text-xl font-lato-bold">Podaruj potrzebującym</Link>
-          <Link to='/#onas' className="btn btn-outline border-white rounded-full text-white text-xl font-lato-bold">Dowiedz się więcej o fundacji</Link>
+          <Link to='/onas' className="btn btn-outline border-white rounded-full text-white text-xl font-lato-bold">Dowiedz się więcej o fundacji</Link>
         </div>
       </div>
       <div className="flex flex-col gap-8 flex-1 lg:mt-12 py-12 lg:py-0">
-        <img src={photo} alt="Logo Mali Czarodzieje" className='max-h-[70vh] justify-end object-contain'/>
+        <div className="flex flex-col gap-4">
+          <img src={photo} alt="Logo Mali Czarodzieje" className='max-h-[60vh] justify-end object-contain'/>
+          <p className="font-gerak text-8xl text-center">Mali Czarodzieje</p>
+        </div>
         <div className="w-1/3 border-2 border-white"></div>
         <p className="text-xl lg:w-3/4">Twoje serce liczy się dla nich najbardziej. Twoja pomoc to dla nich nieocenione wsparcie. Dziękujemy z całego serca!</p>
       </div>
