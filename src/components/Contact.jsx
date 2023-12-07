@@ -64,11 +64,11 @@ const Contact = () => {
           <div className="flex flex-col justify-center items-start gap-4">
             <h6 className="text-3xl font-playfair-semibold flex gap-4">
               <span>Sosnowiec</span>
-              <span className="text-gray-500">Polska</span>
+              <span className="text-red-500">Polska</span>
             </h6>
             <p className="text-xl text-gray-600">ul. Jaroslawa Dudka 56a<br/>Sosnowie 41-200, Polska</p>
-            <p className="text-xl text-gray-600 flex gap-2"><span className="text-black text-bold">Email:</span><span>info@mali-czarodzieje.pl</span></p>
-            <p className="text-xl text-gray-600 flex gap-2"><span className="text-black text-bold">Phone:</span><span>32 352 12 35</span></p>
+            <p className="text-xl text-gray-100 flex gap-2"><span className="text-primary text-bold">Email:</span><a className='text-gray-600' href="mailto:fundacja@maliczarodzieje.eu">fundacja@maliczarodzieje.eu</a></p>
+            <p className="text-xl text-gray-100 flex gap-2"><span className="text-primary text-bold">Telefon:</span><a className='text-gray-600' href="tel:+48508331438">+48 508 331 438</a></p>
           </div>
           
             <div className="w-32 border-2 border-black"></div>

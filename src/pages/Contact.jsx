@@ -66,8 +66,8 @@ const Contact = () => {
                 <span className="text-primary">Polska</span>
               </h6>
               <p className="text-xl text-gray-100">ul. Jaroslawa Dudka 56a<br/>Sosnowiec 41-200, Polska</p>
-              <p className="text-xl text-gray-100 flex gap-2"><span className="text-primary text-bold">Email:</span><span>info@mali-czarodzieje.pl</span></p>
-              <p className="text-xl text-gray-100 flex gap-2"><span className="text-primary text-bold">Phone:</span><span>32 352 12 35</span></p>
+              <p className="text-xl text-gray-100 flex gap-2"><span className="text-primary text-bold">Email:</span><span><a href="mailto:fundacja@maliczarodzieje.eu">fundacja@maliczarodzieje.eu</a></span></p>
+              <p className="text-xl text-gray-100 flex gap-2"><span className="text-primary text-bold">Telefon:</span><span><a href="tel:+48508331438">+48 508 331 438</a></span></p>
             </div>
             
               <div className="w-32 border-2 border-white"></div>
