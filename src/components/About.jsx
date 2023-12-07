@@ -16,7 +16,7 @@ const About = () => {
           <div className="w-1/6 border-2 border-black"></div>
         </div>
         <h5 className="font-lato-bold text-5xl">Pomóż nam coś zmienić</h5>
-        <p className="text-xl mt-4 lg:max-w-[70%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus hic quidem aut tempora fugiat. Neque nostrum excepturi facere. Libero suscipit ipsum voluptate provident laborum optio quod totam aliquid autem numquam.</p>
+        <p className="text-xl mt-4 lg:max-w-[70%]">Fundacja 'Mali Czarodzieje' jest miejscem, gdzie magia staje się rzeczywistością dla każdego dziecka. Nasza misja to nie tylko pomoc w trudnych chwilach, ale także tworzenie magicznych chwil pełnych uśmiechu i radości. Razem z nami dzieci stają się małymi czarodziejami, odkrywając moc swoich marzeń.</p>
         <Link to='/kontakt' className='btn btn-primary text-white font-lato-bold uppercase mt-4 rounded-full'>Skontaktuj sie z nami</Link>
       </div>
     </section>
