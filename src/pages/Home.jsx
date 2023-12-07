@@ -1,5 +1,4 @@
 import Hero from '../components/Hero'
-import Stats from '../components/Stats'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import Mapa from '../components/Mapa'
@@ -12,9 +11,9 @@ const Home = () => {
   return (
     <main className="max-w-screen overflow-x-hidden">
       <Hero />
-      <Stats />
-      <About />
+      {/* <Stats /> */}
       <Recent />
+      <About />
       {/* <Decoration 
         photo={child1}
         title='Wspierajmy Dzieci - Bo Każde Dziecko Jest Ważne'
