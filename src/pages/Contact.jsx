@@ -1,6 +1,8 @@
-import { useState } from 'react'
+import { useRef, useState } from 'react'
 import Recent from '../components/Recent'
 import Mapa from '../components/Mapa'
+import emailjs from '@emailjs/browser';
+
 const Contact = () => {
 
   const [formData, setFormData] = useState({
@@ -39,6 +41,8 @@ const Contact = () => {
     }   
   }
 
+  const form = useRef();
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData)
@@ -50,7 +54,16 @@ const Contact = () => {
       text: ''
 
     })
+
+    emailjs.sendForm('mali-czarodzieje', 'template_hcv7k6k', form.current, 'sCzCOtPiqwr9e49zo')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   }
+
+
 
 
   return (
@@ -74,7 +87,7 @@ const Contact = () => {
             
           </div>
 
-          <form action="" className="flex flex-col justify-center items-center gap-4" onSubmit={handleSubmit}>
+          <form  ref={form} className="flex flex-col justify-center items-center gap-4" onSubmit={handleSubmit}>
             <div className="flex gap-4">
               <input onChange={onMutate} type="text" name="imie" id="name" className="p-4 w-1/2" placeholder='Imię' required value={name}/> 
               <input onChange={onMutate} type="text" name="nazwisko" id="surname" className="p-4 w-1/2" placeholder='Nazwisko' required value={surname}/> 
