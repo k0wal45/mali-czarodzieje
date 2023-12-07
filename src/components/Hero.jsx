@@ -18,7 +18,7 @@ const Hero = () => {
           <p className="font-gerak text-7xl lg:text-8xl text-center">Mali Czarodzieje</p>
         </div>
         <div className="w-1/3 border-2 border-white"></div>
-        <p className="text-xl lg:w-3/4">Pracujemy z pasją nad zapewnieniem natychmiastowej pomocy, ale także długoterminowych rozwiązań</p>
+        <p className="text-xl lg:w-3/4">Razem, jako wspólnota ludzi zaangażowanych, pracujemy nieustannie, aby każde dziecko miało szansę na spełnienie swoich marzeń</p>
       </div>
     </section>
   )
