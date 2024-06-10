@@ -24,13 +24,16 @@ const Navbar = () => {
       <ul
         className={`fixed top-0 left-0 z-20 ${
           isOpen ? "scale-x-100" : "scale-x-0"
-        } duration-500 transition-all origin-right bg-black/70 w-screen h-screen flex flex-col items-center justify-center text-4xl font-bold text-center p-4 gap-3`}
+        } duration-500 transition-all origin-right bg-black/70 w-screen h-screen flex flex-col items-center justify-center text-4xl font-bold text-center p-4 gap-6`}
       >
         <li>
           <Link to="/onas">O nas</Link>
         </li>
+        <li>
+          <Link to="/programy">Programy</Link>
+        </li>
         {earliestEvents.map((event) => (
-          <li>
+          <li className="text-2xl px-4">
             <Link to={`/programy/${event.link}`}>{event.title}</Link>
           </li>
         ))}
