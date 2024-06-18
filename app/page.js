@@ -6,6 +6,8 @@ import Mapa from "@/components/Mapa";
 import Recent from "@/components/Recent";
 import TextShow from "@/components/TextShow";
 
+export const revalidate = 3600;
+
 export default function Home() {
 	return (
 		<main className="max-w-screen overflow-x-hidden">
