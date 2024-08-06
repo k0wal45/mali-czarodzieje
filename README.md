@@ -1,3 +1,7 @@
+# What it this website
+
+This website is project for small charity from Katowice that i had plesure to work with. website is small, has some funcionalities creating dynamic pages 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
